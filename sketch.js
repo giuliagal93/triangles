@@ -15,9 +15,16 @@ function setup() {
 
 }
 
-
-
 function touchStarted() {
+
+if (sat == 0) {
+    sat = 70;
+  } else if (sat == 70){
+    sat = 0;
+  };
+}
+
+function deviceTurned() {
     if (traccia == 0){
         traccia = 2;
     }else if(traccia == 2){
