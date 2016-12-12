@@ -25,35 +25,17 @@ if (sat == 0) {
 }
 
 function deviceTurned() {
-    if (traccia == 0){
-        traccia = 2;
-    }else if(traccia == 2){
-        traccia = 0;
-    }
+   
     
-    if (lum != 0 ) {
-        lum = 0;
-    } else if (lum == 0) {
         lum = random() * 100 + 30;
-    }
+
     
-    if (lumdue != 0 ) {
-        lumdue = 0;
-    } else if (lumdue == 0) {
         lumdue = random() * 100 + 30;
-    }
     
-    if (lumtre != 0 ) {
-        lumtre = 0;
-    } else if (lumtre == 0) {
+   
         lumtre = random() * 100 + 30;
-    }
     
-    if (lumquat != 0 ) {
-        lumquattro = 0;
-    } else if (lumquat == 0) {
         lumquat = random() * 100 + 30;
-    }
     
 }
     
