@@ -1,10 +1,10 @@
 var a = 20;
 var sat = 0;
 var traccia = 0;
-var lum;
-var lumdue;
-var lumtre;
-var lumquat;
+var lum = random() * 100 + 30;;
+var lumdue = random() * 100 + 30;;
+var lumtre = random() * 100 + 30;;
+var lumquat = random() * 100 + 30;;
 
 
 function setup() {
@@ -28,10 +28,8 @@ function deviceTurned() {
    
     
         lum = random() * 100 + 30;
-
     
         lumdue = random() * 100 + 30;
-    
    
         lumtre = random() * 100 + 30;
     
@@ -45,7 +43,6 @@ function draw() {
   for (var x = 0; x < windowWidth; x += 20) {
     for (var y = 0; y < windowHeight; y += 40) {
 
-        strokeWeight(traccia);
 
 
       // triangoli testa in giù - 1
